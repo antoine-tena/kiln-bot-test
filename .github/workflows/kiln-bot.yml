@@ -8,4 +8,4 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: antoine-tena/kiln/.github/workflows/bot.yml@feat/kiln-bot
+    uses: antoine-tena/kiln/.github/workflows/bot.yml@develop
