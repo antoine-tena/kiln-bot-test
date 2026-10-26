@@ -1,0 +1,11 @@
+name: kiln score
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  score:
+    permissions:
+      contents: read
+      pull-requests: write
+    uses: antoine-tena/kiln/.github/workflows/score.yml@feat/kiln-bot
