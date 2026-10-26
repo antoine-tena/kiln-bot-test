@@ -1,0 +1,11 @@
+name: kiln-bot
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bot:
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: antoine-tena/kiln/.github/workflows/bot.yml@feat/kiln-bot
