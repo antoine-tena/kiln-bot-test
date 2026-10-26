@@ -1,0 +1,8 @@
+name: charter
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  charter:
+    uses: antoine-tena/kiln/.github/workflows/charter.yml@feat/kiln-bot
